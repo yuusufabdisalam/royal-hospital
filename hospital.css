@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+ display: flex;
+ justify-content: space-around;
+ 
+ height: 100px;
+ /* background-color: aqua; */
+ align-items: center;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+    
+}
+/* patient identification */
+.tab{
+    display: block;
+    margin: 10px auto 10px auto;
+    width: 85%;
+}
+.outer{
+    border-top: 1px solid;
+    width: 100%;
+    
+}
+.outer .row{
+    
+    display: flex; 
+    justify-content: space-between; 
+    padding-left: 60px;
+    padding-right: 60px;
+    
+    
+
+}
+
+.inner{
+    
+    width: 350px;
+    margin: 5px 10px 5px 10px;
+    
+    /* margin-right: 20px; */
+    /* margin-left: 40px; */
+}
+
+.inner td{
+    /* padding-right: 35px; */
+    font-weight: bold;
+    padding-top: 5px ;
+}
+ 
+  /* patient data table  */
+
+.table1  {
+    width: 100%;
+    border-top: 1px solid;
+    
+}
+.table1 .row1 td , .table1 .row1 th{
+    border-bottom: 1px solid;
+    text-align: start;
+    padding: 20px
+}
+.table1 tr{
+    border-bottom: 1px solid;
+}
+
+.sign {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 50px;
+}
+.singtable{
+    margin-left: auto;
+    margin-right: auto;
+    
+    /* border: 1px solid; */
+    /* width: 50%; */
+}
+.singtable th{
+    /* border: 1px solid; */
+    width: 180px;
+    text-align: end;
+    font-size: 20px;
+}
+.singline{
+    border-bottom: 1px solid;
+}
+
+footer{
+    display: block;
+    margin: 40px auto 20px auto;
+    width: 85%;
+    
+}
+
+.textfoter{
+    margin: 10px auto 10px auto;
+    width: 100%;
+    /* background-color: aqua; */
+    text-align:center ;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom:2px solid ;
+    border-bottom-style: dotted;
+    color: blue;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* text-align: center; */
+    
+    
+}
+ul li{
+    margin: 5px;
+}
+
+
+
+                             /* receipt letter  */
+
+.rheader{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.verif img{
+    width: 60px;
+    height: 60px;
+}
+
+ .logtext{
+    display: flex;
+    align-items: center;   
+}
+.recp{
+    margin-right: 30px;
+}
+
+/* receipt latter main  */
+
+.t-box{
+    border: 1px solid #66f36d;
+    display: inline;
+    padding: 3px 35px;
+    border-radius: 19px;
+    
+}
+
+.r-table1{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.r-table1 .row1 td , .r-table1 .row1 th{
+    border-bottom: 1px solid;
+    text-align: start;
+    padding: 10px
+}
+.r-table1 tr{
+    border-bottom: 1px solid;
+    
+}
+
+/* singiture  and balance */
+.r-main2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.r-sign{
+    width: 40%;  
+}
+.r-singtable{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+   
+}
+.r-singtable th{
+    
+    width: 280px;
+    text-align: center;
+    font-size: 20px;
+}
+.r-singline{
+    padding-top: 20px;
+    border-bottom: 1px solid;
+}
+
+.cal-tab th, .cal-tab td{
+    padding: 5px 35px;
+    text-align: start;
+    font-weight: bold;
+}
+.cal{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.balance{
+    border: 1px solid #19dd5a;
+    display: inline;
+    padding: 3px 55px;
+    border-radius: 19px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+    text-align: center;
+    font-weight: bold;
+}
+
